@@ -5,7 +5,7 @@ public class checksum {
 
         for(int i =0;i<arr.length;i++){
             for(int j=0;j<arr.length;j++){
-                if(i !=j && arr[i]+ arr[j]==k){
+                if(i!=j && arr[i]+ arr[j]==k){
                     System.out.println(arr[i]+" "+ arr[j]);
                     break;
                 }
